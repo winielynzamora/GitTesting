@@ -1,0 +1,136 @@
+<head>
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover
+{
+    color: #ffff00;
+    
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial;
+    padding: 05px;
+    background: #f1f1f1;
+    font-weight: bold;
+}
+
+/*animation navbar*/
+@keyframes navanimation{
+  0% {
+    opacity:0;
+    top: 5px;
+  }
+  100% {
+    opacity: 1;
+    top: 63px;
+  }
+
+}
+
+@keyframes navanimation01{
+  0% {
+    opacity:0;
+    top: 5px;
+  }
+  100% {
+    opacity: 1;
+    top: 5px;
+  }
+
+}
+
+
+/* Header/Blog Title */
+.header {
+    padding: 5dp;
+    text-align: center;
+    background-image: url("file:///C:/xampp/htdocs/xampp/New%20folder/bluestrip.png");
+    width: 100%;
+}
+
+.footer {
+    padding: 05px;
+    text-align: center;
+    background-image: url("file:///C:/xampp/htdocs/xampp/New%20folder/bluestrip.png"); 
+      margin-top: 10000px;
+}
+
+.header h1 {
+    font-size: 30px;
+}
+
+/*<!--  fixed unscrollable header  -->*/
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  padding: 05px;
+  top: 0;
+  width: 100%
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.navClass{
+  display:inline;
+}
+
+/*Navigation class design*/
+.navClass ul{
+  background-color: #b3d9ff;
+  color: #D8D8D;
+  font-size: 20px;
+  text-decoration: none;
+  top: 0%;
+  
+}
+
+.navClass ul li{
+ list-style-type: none;
+ display: inline;
+ padding: 5px 25px;
+ top: 0%;
+}
+
+ul.sub-menu {
+display: block;
+position: fixed;
+list-style-type: none;
+background-color: #b3d9ff;
+padding-top: 30px;
+opacity:0;
+width: 160px;
+  left: 13px;
+  top: 33px;
+}
+
+ul.sub-menu:hover {
+display: block;
+position: fixed;
+list-style-type: none;
+padding-top: 30px;
+background-color: #b3d9ff;
+width: 160px;
+  left: 13px;
+  top: 33px;
+opacity:1;
+
+}
+
+
+
+</head>
